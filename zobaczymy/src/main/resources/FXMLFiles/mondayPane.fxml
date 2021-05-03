@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mondayPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MondayPaneController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="1 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="1 seria" />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="2 seria" />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="3 seria" />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="2 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox2" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="3 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox3" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="4 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox4" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="5 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox5" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="6 ćwiczenie">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="chooseTrainingCombobox6" prefWidth="150.0" promptText="Wybierz ćwiczenie" />
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField prefHeight="17.0" prefWidth="76.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label />
+                        <TextField />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>

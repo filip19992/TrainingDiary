@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="VboxDays" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="111.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.VBoxController">
+   <children>
+      <ToggleButton fx:id="mondayButton" mnemonicParsing="false" onAction="#planForMonday" prefHeight="50.0" prefWidth="110.0" text="Monday">
+         <toggleGroup>
+            <ToggleGroup fx:id="daysToggleGroup" />
+         </toggleGroup>
+      </ToggleButton>
+      <ToggleButton fx:id="thousdayButton" mnemonicParsing="false" onAction="#planForThousday" prefHeight="50.0" prefWidth="110.0" text="Thousday" toggleGroup="$daysToggleGroup" />
+      <ToggleButton fx:id="whensdayButton" mnemonicParsing="false" onAction="#planForWhensday" prefHeight="50.0" prefWidth="110.0" text="Whendsday" toggleGroup="$daysToggleGroup" />
+      <ToggleButton fx:id="thoursdayButton" mnemonicParsing="false" onAction="#planForThoursday" prefHeight="50.0" prefWidth="110.0" text="Thoursday" toggleGroup="$daysToggleGroup" />
+      <ToggleButton fx:id="fridayButton" mnemonicParsing="false" onAction="#planForFriday" prefHeight="50.0" prefWidth="110.0" text="Friday" toggleGroup="$daysToggleGroup" />
+      <ToggleButton fx:id="saturdayButton" mnemonicParsing="false" onAction="#planForSaturday" prefHeight="50.0" prefWidth="110.0" text="Saturday" toggleGroup="$daysToggleGroup" />
+      <ToggleButton fx:id="sundayButton" mnemonicParsing="false" onAction="#planForSunday" prefHeight="50.0" prefWidth="110.0" text="Sunday" toggleGroup="$daysToggleGroup" />
+   </children>
+</VBox>
